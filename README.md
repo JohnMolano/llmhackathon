@@ -8,6 +8,8 @@ Este proyecto busca desarrollar un asistente virtual de finanzas personales impu
 
 Empleamos el modelo de lenguaje Gemini-1.5-Flash para realizar una evaluación exhaustiva de las respuestas generadas por Mistral. Este proceso nos permite garantizar que todas las respuestas superen un umbral de calidad de 3 puntos, asegurando así una experiencia de usuario excepcional.
 
+También realizamos pruebas con CODEGPT creando un agente llamado Agente de Finanzas en donde quisimos enfatizar en personalizar el agente para realizar las pruebas con este agente solo hay que cambiar en +page.svelte el Api por codegpt
+
 
 ## Requisitos Previos
 
