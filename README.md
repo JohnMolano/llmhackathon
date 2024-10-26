@@ -6,6 +6,8 @@ Desarrollado por [@JohnMolano](https://www.linkedin.com/in/john-molano/)
 ## Descripcion
 Este proyecto busca desarrollar un asistente virtual de finanzas personales impulsado por inteligencia artificial, capaz de: analizar los datos financieros de los usuarios, ofrecer recomendaciones personalizadas de inversión y ahorro, crear presupuestos detallados y simular escenarios financieros futuros.
 
+Empleamos el modelo de lenguaje Gemini-1.5-Flash para realizar una evaluación exhaustiva de las respuestas generadas por Mistral. Este proceso nos permite garantizar que todas las respuestas superen un umbral de calidad de 3 puntos, asegurando así una experiencia de usuario excepcional.
+
 
 ## Requisitos Previos
 
@@ -19,7 +21,7 @@ Para utilizar esta aplicación necesitarás:
 
 ### Enlace de pruebas
 
-- [🌐 Pagina Web ](https://jm-finanzas.vercel.app/)
+- [🌐 Pagina Web ](https://jm-finanzas.vercel.app/) El funcionamiento no es el adecuado dado que está desplegado con el mínimo de recursos en la cuenta gratis de vercel. 
 
 
 ---
