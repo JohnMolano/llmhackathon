@@ -1,10 +1,11 @@
 # Crea una app con la API de Mistral y Code GPT
 
-### Este proyecto implementa una aplicación de chat utilizando la API de Mistral y CodeGPT, desarrollada con Svelte.
-Desarrollado por [@GustavoEspindola – CodeGPT](https://www.linkedin.com/in/gustavoespindola/)
+### Este proyecto implementa una aplicación de chat utilizando la API de Mistral y GOOGLE_MODEL.
+Desarrollado por [@JohnMolano](https://www.linkedin.com/in/john-molano/)
 
-<!-- add an image -->
-<img src="https://raw.githubusercontent.com/gustavoespindola/llmhackathon/refs/heads/master/static/hackathon.gif" alt="llmhackathon" width="100%">
+## Descripcion
+Este proyecto busca desarrollar un asistente virtual de finanzas personales impulsado por inteligencia artificial, capaz de: analizar los datos financieros de los usuarios, ofrecer recomendaciones personalizadas de inversión y ahorro, crear presupuestos detallados y simular escenarios financieros futuros.
+
 
 ## Requisitos Previos
 
@@ -15,24 +16,11 @@ Para utilizar esta aplicación necesitarás:
 - Prueba: Solicitar los modelos con una llamada a la API usando archivo .http en [Mistral Endpoints](https://docs.mistral.ai/api/#tag/models)
 - Crea una interacción con el modelo usando la aplicación de chat en Svelte
 
-### Agentes avanzados
-- Crear un Agente AI con CodeGPT
-- Carga la informacion al agente
-- Obten el id del agente
-- Obten la apikey CodeGPT
-- Crear una interacción con el agente usando la aplicación de chat en Svelte
 
-### Enlaces de Interés
+### Enlace de pruebas
 
-- [🎯 LLMHackathon](https://llmhackathon.dev/)
-- [🔑 Documentación API Mistral](https://console.mistral.ai/api-keys/)
-- [🎯 Mistral Endpoints](https://docs.mistral.ai/api/#tag/models)
-- [📚 SDK de Vercel AI](https://sdk.vercel.ai/)
-- [🚀 Registro en CodeGPT](app.codegpt.co/r/gustavo)
-- [📖 Documentación CodeGPT](https://app.codegpt.co/en/apikeys)
-- [📖 CodeGPT Documentation](https://developers.codegpt.co/reference/completion-beta)
-- [🌐 Plataforma Vercel](https://vercel.com/)
-- [🔐 API OpenAI](https://platform.openai.com/api-keys)
+- [🌐 Pagina Web ](https://jm-finanzas.vercel.app/)
+
 
 ---
 
@@ -40,7 +28,7 @@ Para utilizar esta aplicación necesitarás:
 
 **Clonar el repositorio**
 
-`git clone https://github.com/gustavoespindola/llmhackathon`
+`git clone https://github.com/JohnMolano/llmhackathon.git`
 
 **Ingresar a la carpeta del proyecto**
 
