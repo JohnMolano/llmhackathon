@@ -46,8 +46,8 @@
 </script>
 
 <svelte:head>
-	<title>Hackathon LLM</title>
-	<meta name="description" content="Mistral and CodeGPT Chatbot Demo" />
+	<title>Agente Financiero</title>
+	<meta name="description" content="Agente Financiero IA" />
 </svelte:head>
 
 <main class="w-full h-full overflow-hidden">
@@ -56,16 +56,16 @@
 			<h1
 				class="text-lg font-semibold px-2 py-1 tracking-tight backdrop-blur-sm rounded-full bg-white/50"
 			>
-				LLM Hackathon
+				Agente Financiero
 			</h1>
 			<button
 				on:click={() => cleanHistory()}
 				type="submit"
-				class="text-sm px-2 py-1.5 rounded-lg border flex gap-2 items-center ml-auto disabled:cursor-not-allowed disabled:opacity-50 bg-white dark:bg-slate-900"
+				class="text-sm px-2 py-1.5 rounded-lg border flex gap-2 items-center ml-auto disabled:cursor-not-allowed disabled:opacity-50 bg-white dark:bg-slate-500"
 				disabled={!$messages.length || $isLoading}
 			>
 				<PlusIcon class="size-4" />
-				New Chat
+				Nuevo Chat
 			</button>
 		</header>
 
@@ -107,7 +107,7 @@
 					</ul>
 				{:else}
 					<p class="max-w-xs text-center m-auto p-4 rounded-xl bg-slate-50">
-						Type something and press enter
+						Escribe algo y pulsa enter
 					</p>
 				{/if}
 			</div>
@@ -118,7 +118,7 @@
 			<input
 				bind:value={$input}
 				class="border rounded-xl w-full bg-slate-50 px-3 py-2 h-12"
-				placeholder="Type something and press enter"
+				placeholder="Escribe algo y pulsa enter"
 				on:keydown={(e: KeyboardEvent) => {
 					if (e.key === 'Enter' && !e.shiftKey) {
 						e.preventDefault();

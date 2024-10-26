@@ -28,7 +28,7 @@ export const POST = (async ({ request }) => {
 		return new ReadableStream({
 			async start(controller) {
 				for await (const message of streamReader(response)) {
-					console.log({ message });
+					//console.log(message);
 					controller.enqueue(encoder.encode(`0:${message}\n`));
 				}
 				controller.close();
@@ -58,7 +58,7 @@ export const POST = (async ({ request }) => {
 
 	const stream = createSSEStream(response);
 
-	// console.log(stream);
+	console.log(response.body);
 
 	return new Response(stream, {
 		headers: {
