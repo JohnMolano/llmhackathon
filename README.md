@@ -24,6 +24,7 @@ Para utilizar esta aplicación necesitarás:
 ### Enlace de pruebas
 
 - [🌐 Pagina Web ](https://jm-finanzas.vercel.app/) El funcionamiento no es el adecuado dado que está desplegado con el mínimo de recursos en la cuenta gratis de vercel. 
+- [🌐 codegpt Agente Finanzas ](https://app.codegpt.co/chat/share/c6edff24-475a-47a1-9af9-f3b5d51f18c0/?pincode=d6uj7t)
 
 
 ---
